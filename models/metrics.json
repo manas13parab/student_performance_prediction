@@ -1,0 +1,73 @@
+{
+  "best_model": "Linear Regression",
+  "regression": {
+    "Linear Regression": {
+      "cv_r2": 0.644,
+      "test_r2": 0.663,
+      "test_mae": 3.71,
+      "test_rmse": 4.28
+    },
+    "Random Forest": {
+      "cv_r2": 0.605,
+      "test_r2": 0.628,
+      "test_mae": 3.86,
+      "test_rmse": 4.5
+    },
+    "Gradient Boosting": {
+      "cv_r2": 0.624,
+      "test_r2": 0.651,
+      "test_mae": 3.75,
+      "test_rmse": 4.35
+    }
+  },
+  "risk_report": {
+    "High": {
+      "precision": 0.4246575342465753,
+      "recall": 0.5535714285714286,
+      "f1-score": 0.4806201550387597,
+      "support": 56.0
+    },
+    "Low": {
+      "precision": 0.9014778325123153,
+      "recall": 0.6182432432432432,
+      "f1-score": 0.7334669338677354,
+      "support": 592.0
+    },
+    "Moderate": {
+      "precision": 0.5201535508637236,
+      "recall": 0.7698863636363636,
+      "f1-score": 0.6208476517754868,
+      "support": 352.0
+    },
+    "accuracy": 0.668,
+    "macro avg": {
+      "precision": 0.6154296392075381,
+      "recall": 0.6472336784836785,
+      "f1-score": 0.6116449135606606,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.7405497486691296,
+      "recall": 0.668,
+      "f1-score": 0.6796655269568412,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      366,
+      225,
+      1
+    ],
+    [
+      40,
+      271,
+      41
+    ],
+    [
+      0,
+      25,
+      31
+    ]
+  ]
+}
